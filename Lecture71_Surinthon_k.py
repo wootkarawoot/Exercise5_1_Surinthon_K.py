@@ -4,7 +4,6 @@ PriceList = []
 def showBill():
 	print("----------เมนู อาหาร----------")
 	for number in range(len(menuList)):
-		print(number,'ทดสอบ')
 		print(menuList[number],PriceList[number],' บาท')
 	TotalPrice = 0
 	for x in PriceList:
